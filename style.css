@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=REM:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+  font-family: "REM", sans-serif;
+}
+body {
+  background-color: rgb(252, 64, 152);
+}
+header {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+}
+header {
+  display: flex;
+  height: 15vh;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5vh;
+}
+.pata {
+  display: flex;
+  height: 5vh;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  height: 5vh;
+  flex-direction: row;
+  margin-left: 120vh;
+  gap: 3vh;
+}
+.Primeira_div {
+  display: flex;
+  color: rgb(252, 251, 250);
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-size: 6vh;
+  background-image: url(https://raw.githubusercontent.com/mariaccarolina/desafioFinal/main/Web/Grupo%20486.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Pata02 {
+  height: 20vh;
+  width: 20vh;
+}
+.Segunda_div {
+  display: flex;
+  height: 100vh;
+  color: rgb(49, 21, 0);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: aliceblue;
+  background-size: 100% 100%;
+  background-image: url(https://raw.githubusercontent.com/mariaccarolina/desafioFinal/main/Web/Interse%C3%A7%C3%A3o%2016.png);
+}
+div button {
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15vh;
+  width: 40vh;
+  height: 10vh;
+  font-size: 5vh;
+  border-radius: 10vh;
+  background-color: rgb(114, 63, 18);
+}
+.titulo-segundo {
+  font-size: 10vh;
+  margin-left: 4vh;
+}
+.Primeiro-texto {
+  margin-left: 4vh;
+  font-size: 25px;
+  justify-content: space-around;
+  padding: 5px;
+  width: 45vw;
+  height: 37vh;
+}
+.Butão_Segundario {
+  display: flex;
+  color: rgb(3, 29, 54);
+  justify-content: center;
+  align-items: center;
+  margin-left: 100vh;
+  margin-top: 9vh;
+  width: 40vh;
+  height: 10vh;
+  font-size: 5vh;
+  border-radius: 10vh;
+  background-color: azure;
+}
+.Teceira_div {
+  display: flex;
+  color: rgb(252, 251, 250);
+  flex-direction: column;
+  height: 100vh;
+  font-size: 5vh;
+  background-image: url(https://raw.githubusercontent.com/mariaccarolina/desafioFinal/main/Web/Grupo%20480.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Titulo_Teceiro {
+  display: flex;
+  font-size: 12vh;
+  justify-content: space-evenly;
+  margin-left: 110vh;
+  padding: 10px;
+  width: 27vw;
+  height: 36vh;
+}
+.Segundo_texto {
+  margin-left: 95vh;
+  font-size: 25px;
+  justify-content: space-around;
+  padding: 5px;
+  width: 45vw;
+  height: 36vh;
+}
+.Quarta_div {
+  display: flex;
+  color: palevioletred;
+  background-color: aliceblue;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  color: antiquewhite;
+  justify-content: flex-start;
+  height: 30vh;
+  margin: 10vh;
+  align-items: baseline;
+  gap: 30px;
+}
+footer p {
+  display: flex;
+  font-size: 2vh;
+  margin: 2vh;
+}
+footer h2 {
+  display: flex;
+  font-size: 4vh;
+  gap: 40px;
+}
+@media screen and (min-width: 201px) and (max-width: 500px) {
+  header {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .Instragam {
+    display: none;
+  }
+  .youtube {
+    display: none;
+  }
+  .Quarta_div {
+    height: 35vh;
+  }
+  .Titulo_Teceiro {
+    right: 95vh;
+  }
+  h3 {
+    order: 2;
+    margin-bottom: 20vh;
+    align-items: flex-end;
+  }
+  .Apoio1 {
+    order: 1;
+  }
+  .Apoio2 {
+    order: 3;
+  }
+  .Segunda_div {
+    height: 150vw;
+    width: 100vw;
+  }
+  .titulo-segundo {
+    font-size: 6vh;
+  }
+  .Primeiro-texto {
+    margin-left: 4vh;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 5px;
+    width: 50vw;
+    height: 40vh;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+  }
+}
